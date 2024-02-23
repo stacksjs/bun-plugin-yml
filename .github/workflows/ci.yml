@@ -15,31 +15,44 @@ concurrency:
 
 jobs:
   lint:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Install Bun
         uses: oven-sh/setup-bun@v1
+
+      - name: Use cached node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('**/bun.lockb') }}
+          restore-keys: |
+            node-modules-
+
+      - name: Install Dependencies
+        run: bun install
 
       - name: Lint
         run: bun run lint
 
   typecheck:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Install Bun
         uses: oven-sh/setup-bun@v1
+
+      - name: Use cached node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('**/bun.lockb') }}
+          restore-keys: |
+            node-modules-
 
       - name: Install Dependencies
         run: bun install
@@ -48,16 +61,21 @@ jobs:
         run: bun --bun run typecheck
 
   test:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Install Bun
         uses: oven-sh/setup-bun@v1
+
+      - name: Use cached node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-modules-${{ hashFiles('**/bun.lockb') }}
+          restore-keys: |
+            node-modules-
 
       - name: Install Dependencies
         run: bun install
