@@ -68,7 +68,7 @@
     "typescript": "^5.3.3"
   },
   "simple-git-hooks": {
-    "pre-commit": "bunx --no-install lint-staged",
+    "pre-commit": "bun lint-staged",
     "commit-msg": "bunx --no -- commitlint --edit $1"
   },
   "lint-staged": {
