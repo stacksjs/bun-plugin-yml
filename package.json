@@ -1,7 +1,7 @@
 {
   "name": "bun-plugin-yml",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A simple Bun plugin to load .yml & .yaml files as modules.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
