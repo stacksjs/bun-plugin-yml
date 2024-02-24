@@ -58,6 +58,7 @@
     "@stacksjs/eslint-config": "^0.58.73",
     "@types/bun": "^1.0.7",
     "@types/node": "^20.11.20",
+    "bun-plugin-dts-auto": "^0.4.1",
     "changelogen": "^0.5.5",
     "commitizen": "^4.3.0",
     "cz-git": "^1.8.0",

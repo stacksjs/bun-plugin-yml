@@ -1,7 +1,8 @@
 import { plugin } from 'bun'
 
 await plugin({
-  name: 'YAML',
+  name: 'bun-plugin-yml',
+
   async setup(build) {
     const { load } = await import('js-yaml')
 
