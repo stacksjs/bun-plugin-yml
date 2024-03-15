@@ -55,18 +55,18 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
-    "@stacksjs/eslint-config": "^0.58.73",
+    "@stacksjs/eslint-config": "^0.59.11",
     "@types/bun": "^1.0.8",
-    "@types/node": "^20.11.24",
+    "@types/node": "^20.11.27",
     "bun-plugin-dts-auto": "^0.10.0",
     "changelogen": "^0.5.5",
     "commitizen": "^4.3.0",
-    "cz-git": "^1.8.0",
+    "cz-git": "^1.9.0",
     "eslint": "^8.57.0",
     "js-yaml": "^4.1.0",
     "lint-staged": "^15.2.2",
-    "simple-git-hooks": "^2.9.0",
-    "typescript": "^5.3.3"
+    "simple-git-hooks": "^2.10.0",
+    "typescript": "^5.4.2"
   },
   "simple-git-hooks": {
     "pre-commit": "bun lint-staged",
