@@ -54,7 +54,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.6.1",
+    "@commitlint/cli": "^19.2.0",
     "@stacksjs/eslint-config": "^0.59.11",
     "@types/bun": "^1.0.8",
     "@types/node": "^20.11.27",
