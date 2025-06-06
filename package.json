@@ -57,7 +57,7 @@
     "@commitlint/cli": "^19.2.0",
     "@stacksjs/eslint-config": "^0.59.11",
     "@types/bun": "^1.0.8",
-    "@types/node": "^20.11.27",
+    "@types/node": "^22.15.30",
     "bun-plugin-dts-auto": "^0.10.0",
     "changelogen": "^0.5.5",
     "commitizen": "^4.3.0",
