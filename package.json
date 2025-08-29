@@ -60,7 +60,7 @@
     "@stacksjs/bumpx": "^0.1.19",
     "@stacksjs/eslint-config": "^0.59.11",
     "@stacksjs/gitlint": "^0.1.5",
-    "@stacksjs/logsmith": "^0.1.8",
+    "@stacksjs/logsmith": "^0.1.9",
     "@types/bun": "^1.2.21",
     "@types/node": "^20.11.27",
     "buddy-bot": "^0.8.10",
