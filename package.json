@@ -62,7 +62,7 @@
     "@stacksjs/gitlint": "^0.1.5",
     "@stacksjs/logsmith": "^0.1.8",
     "@types/bun": "^1.0.8",
-    "@types/node": "^20.11.27",
+    "@types/node": "^24.6.0",
     "buddy-bot": "^0.9.7",
     "bun-git-hooks": "^0.2.19",
     "bun-plugin-dts-auto": "^0.10.0",
