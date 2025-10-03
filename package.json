@@ -68,7 +68,7 @@
     "bun-plugin-dts-auto": "^0.10.0",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.0",
-    "eslint": "^9.36.0",
+    "eslint": "^9.37.0",
     "js-yaml": "^4.1.0",
     "typescript": "^5.4.2"
   },
