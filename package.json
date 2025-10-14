@@ -57,8 +57,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.0",
-    "@stacksjs/bumpx": "^0.1.17",
-    "@stacksjs/eslint-config": "^0.59.11",
+    "@stacksjs/bumpx": "^0.2.2",
+    "@stacksjs/eslint-config": "^4.14.0-beta.3",
     "@stacksjs/gitlint": "^0.1.5",
     "@stacksjs/logsmith": "^0.1.8",
     "@types/bun": "^1.0.8",
