@@ -58,7 +58,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.2.0",
     "@stacksjs/bumpx": "^0.2.2",
-    "@stacksjs/eslint-config": "^0.59.11",
+    "@stacksjs/eslint-config": "^4.14.0-beta.3",
     "@stacksjs/gitlint": "^0.1.5",
     "@stacksjs/logsmith": "^0.1.8",
     "@types/bun": "^1.0.8",
@@ -68,7 +68,6 @@
     "bun-plugin-dts-auto": "^0.10.0",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.0",
-    "eslint": "^8.57.0",
     "js-yaml": "^4.1.0",
     "typescript": "^5.4.2"
   },
