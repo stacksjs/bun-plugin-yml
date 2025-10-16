@@ -1,6 +1,6 @@
 import { plugin } from 'bun'
 
-await plugin({
+plugin({
   name: 'bun-plugin-yml',
 
   async setup(build) {
