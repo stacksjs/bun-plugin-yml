@@ -1,6 +1,5 @@
 import dts from 'bun-plugin-dts-auto'
 
-// eslint-disable-next-line no-console
 console.log('Building...')
 
 await Bun.build({
@@ -17,5 +16,4 @@ await Bun.build({
   ],
 })
 
-// eslint-disable-next-line no-console
 console.log('Built!')
