@@ -58,7 +58,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
+    "@commitlint/cli": "^20.4.2",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^20.19.24",
     "better-dx": "^0.2.5",
