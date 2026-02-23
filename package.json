@@ -60,7 +60,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^20.19.24",
+    "@types/node": "^25.3.0",
     "better-dx": "^0.2.5",
     "bun-plugin-dts-auto": "^0.20.6",
     "commitizen": "^4.3.1",
