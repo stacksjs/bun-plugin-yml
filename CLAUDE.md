@@ -2,7 +2,7 @@
 
 ## About
 
-A simple Bun plugin to load .yml & .yaml files as modules.
+bun-plugin-yml is a Bun plugin that lets you import `.yml` and `.yaml` files directly as JavaScript modules. It is powered by js-yaml and is registered via `bunfig.toml` preloading, allowing you to `import config from './config/settings.yml'` and access parsed YAML content as typed objects.
 
 ## Linting
 
