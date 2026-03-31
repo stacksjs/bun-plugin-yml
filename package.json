@@ -58,9 +58,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.4.2",
+    "@commitlint/cli": "^20.5.0",
     "@types/js-yaml": "^4.0.9",
-    "@types/node": "^25.3.0",
+    "@types/node": "^25.5.0",
     "better-dx": "^0.2.7",
     "bun-plugin-dts-auto": "^0.20.6",
     "commitizen": "^4.3.1",
