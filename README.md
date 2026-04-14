@@ -25,7 +25,7 @@ Next, ensure you are preloading the plugin in your `bunfig.toml`:
 ```toml
 preload = [
   "./node_modules/bun-plugin-yml/src/index.ts",
-  # ...
+#
 ]
 ```
 
